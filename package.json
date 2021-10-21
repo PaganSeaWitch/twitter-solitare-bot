@@ -1,0 +1,23 @@
+{
+  "name": "twitter-solitare-bot",
+  "version": "1.0.0",
+  "description": "Junk made for fun",
+  "main": "twitterBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmerjw/twitter-solitare-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palmerjw/twitter-solitare-bot/issues"
+  },
+  "homepage": "https://github.com/palmerjw/twitter-solitare-bot#readme",
+  "dependencies": {
+    "twitter-api-v2": "^1.6.3"
+  }
+}

@@ -17,7 +17,7 @@ const stream = await client.v2.searchStream(
     'tweet.fields' : ['author_id', 'conversation_id', 'text', 'in_reply_to_user_id', 'referenced_tweets'],
     expansions : ['referenced_tweets.id.author_id','referenced_tweets.id',],
     }
-    );
+);
 
 
 // Enable reconnect feature
@@ -35,3 +35,4 @@ stream.on(ETwitterStreamEvent.Data, async tweet => {
     }
     // Reply to tweet
 });
+
