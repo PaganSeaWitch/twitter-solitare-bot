@@ -1,7 +1,7 @@
 export function getCardFromText(suite, value){
-    suite = suite.toLowerCase();
+    suite.toLowerCase();
     switch (suite) {
-        case 'dimaond':
+        case 'diamond':
         case 'diamonds':
             return getDiamondValueFromText(''+value);
         case 'clubs':
@@ -20,7 +20,7 @@ export function getCardFromText(suite, value){
 
 
 function getDiamondValueFromText(value){
-    value = value.toLowerCase();
+    value.toLowerCase();
     switch(value){
         case '1':
         case 'one':
@@ -83,7 +83,7 @@ function getDiamondValueFromText(value){
 
 
 function getSpadeValueFromText(value){
-    value = value.toLowerCase();
+    value.toLowerCase();
     switch(value){
         case '1':
         case 'one':
@@ -146,7 +146,7 @@ function getSpadeValueFromText(value){
 
 
 function getHeartValueFromText(value){
-    value = value.toLowerCase();
+    value.toLowerCase();
     switch(value){
         case '1':
         case 'one':
@@ -209,7 +209,7 @@ function getHeartValueFromText(value){
 
 
 function getClubValueFromText(value){
-    value = value.toLowerCase();
+    value.toLowerCase();
     switch(value){
         case '1':
         case 'one':
@@ -269,3 +269,4 @@ function getClubValueFromText(value){
             return 'ERROR';
     }
 }
+
