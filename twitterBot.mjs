@@ -9,8 +9,8 @@ const rules = await client.v2.streamRules();
 if(rules.data?.length != 2){
     await client.v2.updateStreamRules({
         add:[
-            { value: '@accordian-bot AND -is:reply AND -is:retweet AND "start game"', tag: 'startGame'},
-            { value: 'is:reply AND -is:retweet AND to:accordian-bot', tag: 'tryMove'},
+            { value: '@JackPal78235908 AND -is:reply AND -is:retweet AND "start game"', tag: 'startGame'},
+            { value: 'is:reply AND -is:retweet AND to:JackPal78235908', tag: 'tryMove'},
         ]
 })};
 
