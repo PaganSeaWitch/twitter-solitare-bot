@@ -1,5 +1,5 @@
 # twitter-solitare-bot
-Junk made for fun
+LINK TO BOT [HERE](https://twitter.com/JackPal78235908)
 
 This bot is a faithful Accordian solitare player for twitter.
 Which is to say, you can play accordian solitare with it.
@@ -11,7 +11,7 @@ But more importantly, I chose this version of solitare because the game state is
 Meaning I didn't have to keep track of anything over the course of the game as the previous tweet had everything.
 I could have done klondike solitare in a similar way, where instead of keeping track of where cards are, just give a random card.
 However, the problem with that approach is that then drawing a card from the top deck would be both infinite and could duplicate.
-Thus instead of trying to make a systemw where I kept track of it, through searching previous tweets. I did something far more simple
+Thus instead of trying to make a system where I kept track of it, through searching previous tweets, I did something far more simple
 
 # DOES THIS WORK?
 I actually have no idea because I wasn't given a twitter developer account by the time the challenge was finished.
