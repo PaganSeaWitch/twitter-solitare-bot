@@ -18,7 +18,7 @@ export function getCardFromText(suite, value){
     }
 }
 
-
+//switch to try to decern value from input
 function getDiamondValueFromText(value){
     value.toLowerCase();
     switch(value){
@@ -81,7 +81,7 @@ function getDiamondValueFromText(value){
     }
 }
 
-
+//switch to try to decern value from input
 function getSpadeValueFromText(value){
     value.toLowerCase();
     switch(value){
@@ -144,7 +144,7 @@ function getSpadeValueFromText(value){
     }
 }
 
-
+//switch to try to decern value from input
 function getHeartValueFromText(value){
     value.toLowerCase();
     switch(value){
@@ -207,7 +207,7 @@ function getHeartValueFromText(value){
     }
 }
 
-
+//switch to try to decern value from input
 function getClubValueFromText(value){
     value.toLowerCase();
     switch(value){
